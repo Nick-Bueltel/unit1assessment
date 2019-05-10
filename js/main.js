@@ -11,7 +11,7 @@ addButton.addEventListener('click', add);
 subButton.addEventListener('click', subtract);
 
 function add(){
-    if(inputBox.value === !NaN){
+    if(inputBox.value != NaN){
     display = parseInt(display) + parseInt(inputBox.value);
     messageBox.innerHTML = display; 
     inputBox.value = '';
@@ -25,7 +25,7 @@ function add(){
 }
 
 function subtract(){
-    if(inputBox.value === !NaN){
+    if(inputBox.value != NaN){
     display = parseInt(display) - parseInt(inputBox.value);
     messageBox.innerHTML = display;
     inputBox.value = '';
