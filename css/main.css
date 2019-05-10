@@ -1,0 +1,33 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center; 
+}
+
+button{
+    border-radius: 5px; 
+    border-width: 2px; 
+    border-color: gray; 
+    background-color: gray; 
+    color: white; 
+    font-size: 35px; 
+
+}
+
+button:hover{
+    background-color: white; 
+    color: gray; 
+
+}
+
+input{
+    border-width: 3px; 
+    font-size: 35px; 
+    color: black; 
+    border-color: gray; 
+    border-radius: 5px; 
+    border-style: solid; 
+
+}
+h1{
+    font-size: 65px;
+}
